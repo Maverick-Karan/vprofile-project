@@ -1,5 +1,5 @@
 FROM openjdk:11 AS BUILD_IMAGE
-RUN yum update && yum install maven -y
+RUN sudo yum update && sudo yum install maven -y
 RUN git clone https://github.com/Maverick-Karan/vprofile-project.git
 RUN cd vprofile-project && git checkout docker && mvn install
 
