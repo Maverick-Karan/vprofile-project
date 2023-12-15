@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Docker-files",
-    "\\Docker-files\\app",
-    "\\Docker-files\\db",
-    "\\Docker-files\\web"
+    "\\Docker-files\\db"
   ],
+  "SelectedNode": "\\Docker-files\\db\\Dockerfile",
   "PreviewInSolutionExplorer": false
 }
